@@ -11,12 +11,14 @@
     width: 100vw;
     height: 100vh;
     object-fit: fit;
-    background-image: url("./images//jimmy-dean-Yn0l7uwBrpw-unsplash.jpg");
-  
+  background-image: url("https://www.shutterstock.com/shutterstock/photos/1931959721/display_1500/stock-photo-pizza-with-salami-and-cheese-on-dark-background-view-from-above-with-copy-space-1931959721.jpg");
     background-repeat:no-repeat;
     margin-top: 0px;
     position: relative;
     
+}
+.Navbar .logo{
+    padding-left: 10px;
 }
 .Navbar{
     background-color: white;
@@ -53,13 +55,17 @@ ul{
     flex-direction: row;
     justify-content: space-between; */
 }
+.contentflex{
+    display: flex;
+    
+}
 .content{
-    position: absolute;
-    background-color: black;
+    /* position: absolute; */
+    background-color: transparent;
     width: 30vw;
     height: 40vh;
     margin-top: 16rem;
-    margin-left: 15rem;
+    margin-left: 14rem;
     color: white;
     padding:10px;
     display: flex;
@@ -109,7 +115,8 @@ sup{
     overflow-x: hidden;
     background-color: black;
     width: 100vw;
-    margin-top: 3rem;
+    /* margin-top: 0.5rem; */
+    padding-top:1rem
 }
 .About-us .Aimage{
     width:33%;
@@ -129,19 +136,24 @@ background-repeat: no-repeat;
     margin-bottom: 20px;
     height: 48vh;
    color: black;
+   /* object-fit: contain; */
     background-color:black;
+    /* background-image: url("https://www.shutterstock.com/shutterstock/photos/334280822/display_1500/stock-photo-fresh-tasty-burger-on-black-background-334280822.jpg"); */
+    /* object-fit:cover; */
     padding: 20px;
-    box-sizing: border-box;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    gap: 10px;
+    color: white;
+    
 }
 
 .container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 70vh;
+    height:0vh;
     width: 60vw;
     margin-left: 20vw;
     margin-right: 15vw;
@@ -151,12 +163,19 @@ background-repeat: no-repeat;
 .menu{
     margin-bottom: 5rem;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 3rem;
+}
+.menu .p{
+    padding-top: 1rem;
 }
 .banner{
     width:100vw;
     height: 50vh;
     background-color:pink;
-    margin-top: 2rem;
+    margin-top: 15rem;
    background-image: url("https://www.shutterstock.com/shutterstock/photos/795280564/display_1500/stock-photo-food-ingredients-for-italian-pasta-spaghetti-on-black-stone-slate-background-copy-space-of-your-795280564.jpg");
    background-repeat: no-repeat;
    object-fit:fill;
@@ -183,6 +202,7 @@ background-repeat: no-repeat;
 .img-left-float img{
 /* float: left; */
 margin-right: 2rem;
+background-image: transparent;
 
 }
 .img-left-float .description{
