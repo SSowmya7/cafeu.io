@@ -322,3 +322,11 @@ margin-right: 2rem;
 /* .banner #readmore{
     height: 5rem;
 } */
+#brands{
+justify-content: space-evenly;
+align-items: center;
+}
+.brands{
+    color: white;
+    font-size: 32px;
+}
