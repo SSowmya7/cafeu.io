@@ -1,0 +1,324 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+
+}
+
+.home-page{
+    width: 100vw;
+    height: 100vh;
+    object-fit: fit;
+    background-image: url("./images//jimmy-dean-Yn0l7uwBrpw-unsplash.jpg");
+  
+    background-repeat:no-repeat;
+    margin-top: 0px;
+    position: relative;
+    
+}
+.Navbar{
+    background-color: white;
+    width: 65vw;
+    height: 4rem;
+    margin-left: 17vw;
+    margin-right: 17vw;
+    margin-top: 1rem;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position:absolute;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.logo{
+    width:30%;
+    /* background-color: white; */
+ 
+}
+.nav-items{
+    width:58%;
+    /* background-color: white; */
+}
+.icons{
+    width: 12%;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+}
+.content{
+    position: absolute;
+    background-color: black;
+    width: 30vw;
+    height: 40vh;
+    margin-top: 16rem;
+    margin-left: 15rem;
+    color: white;
+    padding:10px;
+    display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+}
+#best-sellers
+{
+    display: flex;
+    flex-direction: column;
+}
+#order{
+    background-color: tomato;
+    height: 7vh;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 7rem;
+
+}
+sup{
+    color: red;
+}
+.side-float{
+    background-color: black;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content:center ;
+    align-items: center;
+    /* margin-top: 16rem; */
+    margin-right: 0;
+    position: absolute;
+    right: 10px;
+    left:90vw;
+    bottom: 50vh;
+    color: white;
+    width: 18vw;
+    align-items: center;
+    transform: rotate(90deg);
+    /* margin-top: 0rem; */
+}
+.About-us{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    overflow-x: hidden;
+    background-color: black;
+    width: 100vw;
+    margin-top: 3rem;
+}
+.About-us .Aimage{
+    width:33%;
+    background-color: pink;
+    height: 500px;
+    background-image: url("https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTJ8fHxlbnwwfHx8fHw%3D");
+background-repeat: no-repeat;
+}
+.About-us .Acontent{
+    width:55%;
+    background-color: black;
+    height:500px;
+}
+.card {
+    width: calc(25% - 20px); 
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 48vh;
+   color: black;
+    background-color:black;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 70vh;
+    width: 60vw;
+    margin-left: 20vw;
+    margin-right: 15vw;
+    padding-top: 3rem;
+    margin-bottom: 2rem;
+}
+.menu{
+    margin-bottom: 5rem;
+    height: 100vh;
+}
+.banner{
+    width:100vw;
+    height: 50vh;
+    background-color:pink;
+    margin-top: 2rem;
+   background-image: url("https://www.shutterstock.com/shutterstock/photos/795280564/display_1500/stock-photo-food-ingredients-for-italian-pasta-spaghetti-on-black-stone-slate-background-copy-space-of-your-795280564.jpg");
+   background-repeat: no-repeat;
+   object-fit:fill;
+   display: flex;
+    justify-content: flex-start;
+}
+.banner .content{
+    background-color: transparent;
+    height: 25vh;
+    width:35vw ;
+    margin-top: 12vh;
+    margin-left: 15vw;
+}
+.img-left-float{
+    width:60vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:20vw ;
+    margin-top: 7vh;
+    margin-bottom: 0px;
+}
+.img-left-float img{
+/* float: left; */
+margin-right: 2rem;
+
+}
+.img-left-float .description{
+    display: flex;
+    flex-direction: column;
+
+}
+.description p{
+    font-size: x-large;
+}
+.description button{
+    width:7rem;
+    height: 3rem;
+    border-radius: 5px;
+    border:none;
+    background-color: orange;
+    margin-top: 1rem;
+    color: white;
+}
+.img-right-float{
+    width:60vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    margin:20vw ;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+.img-right-float img{
+    /* float:right; */
+    margin-left: 2rem;
+
+}
+.team-members{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-evenly;
+    /* height: 70vh;
+    width: 60vw;
+    margin-left: 20vw;
+    margin-right: 15vw;
+    padding-top: 3rem;
+    margin-bottom: 2rem; */
+}
+.team-members .card{
+    width:calc(33.33%-20px);
+}
+.team h2{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.team{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 70vh;
+    width: 60vw;
+    margin-left: 20vw;
+    margin-right: 15vw;
+    padding-top: 3rem;
+    margin-bottom: 2rem;
+}
+.footer .info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer{
+    height: 80vh;
+    background-color: black;
+    color: white;
+    
+}
+.info{
+    width:65vw;
+  height: 70vh;
+  padding-top: 15vh;
+    margin-left: 25vw;
+    
+}
+.cafeu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+.footer .copyright{
+    text-align: center;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+.instagram .card{
+    display:flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    width: calc(33.33% - 20px); 
+    /* margin-right: 20px;
+    margin-bottom: 20px; */
+    height: 7vh;
+   color: black;
+    background-color:white;
+    padding: 5px;
+    box-sizing: border-box;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+.instagram{
+    height:10vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 10vw;
+}
+.subscribe{
+    width:10vh;
+  
+}
+#subscribe{
+    background-color: orange;
+}
+.Acontent .content{
+    margin-top: 3rem;
+    width:55%;
+    margin-left: 5rem;
+}
+#readmore{
+    background-color: orange;
+    height: 2.5rem;
+    width: 9rem;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+}
+/* .banner #readmore{
+    height: 5rem;
+} */
