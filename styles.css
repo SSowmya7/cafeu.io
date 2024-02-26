@@ -3,8 +3,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+   
     
 
+}
+body{
+background-color: black;
+color: white;
+overflow-x: hidden;
 }
 
 .home-page{
@@ -22,6 +28,7 @@
 }
 .Navbar{
     background-color: white;
+    color: black;
     width: 65vw;
     height: 4rem;
     margin-left: 17vw;
@@ -116,11 +123,12 @@ sup{
     background-color: black;
     width: 100vw;
     /* margin-top: 0.5rem; */
-    padding-top:1rem
+    padding-top:1rem;
+    margin-left: 12%;
 }
 .About-us .Aimage{
     width:33%;
-    background-color: pink;
+    background-color:black;
     height: 500px;
     background-image: url("https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTJ8fHxlbnwwfHx8fHw%3D");
 background-repeat: no-repeat;
@@ -135,17 +143,14 @@ background-repeat: no-repeat;
     margin-right: 20px;
     margin-bottom: 20px;
     height: 48vh;
-   color: black;
-   /* object-fit: contain; */
-    background-color:black;
-    /* background-image: url("https://www.shutterstock.com/shutterstock/photos/334280822/display_1500/stock-photo-fresh-tasty-burger-on-black-background-334280822.jpg"); */
-    /* object-fit:cover; */
+    color: black;
+    background-color:white;
     padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 10px;
-    color: white;
+    
     
 }
 
@@ -173,12 +178,13 @@ background-repeat: no-repeat;
 }
 .banner{
     width:100vw;
+    
     height: 50vh;
-    background-color:pink;
+    background-color:black;
     margin-top: 15rem;
    background-image: url("https://www.shutterstock.com/shutterstock/photos/795280564/display_1500/stock-photo-food-ingredients-for-italian-pasta-spaghetti-on-black-stone-slate-background-copy-space-of-your-795280564.jpg");
    background-repeat: no-repeat;
-   object-fit:fill;
+   /* object-fit:fill; */
    display: flex;
     justify-content: flex-start;
 }
@@ -208,10 +214,13 @@ background-image: transparent;
 .img-left-float .description{
     display: flex;
     flex-direction: column;
+   
 
 }
 .description p{
     font-size: x-large;
+    color: white;
+    padding-top: 3rem;
 }
 .description button{
     width:7rem;
@@ -240,15 +249,12 @@ background-image: transparent;
     display: flex;
     flex-direction: row;
    justify-content: space-evenly;
-    /* height: 70vh;
-    width: 60vw;
-    margin-left: 20vw;
-    margin-right: 15vw;
-    padding-top: 3rem;
-    margin-bottom: 2rem; */
+   margin-top: 3rem; 
+
 }
 .team-members .card{
     width:calc(33.33%-20px);
+    height: 40vh;
 }
 .team h2{
     margin-bottom: 2rem;
@@ -264,6 +270,7 @@ background-image: transparent;
     margin-right: 15vw;
     padding-top: 3rem;
     margin-bottom: 2rem;
+    
 }
 .footer .info{
     display: flex;
@@ -321,10 +328,12 @@ background-image: transparent;
 }
 .subscribe{
     width:10vh;
+   
   
 }
-#subscribe{
+ #Subs{
     background-color: orange;
+    border: none;
 }
 .Acontent .content{
     margin-top: 3rem;
@@ -349,4 +358,42 @@ align-items: center;
 .brands{
     color: white;
     font-size: 32px;
+}
+.title{
+    text-align: center;
+}
+.team p{
+    text-align: center;
+    /* padding-bottom: 2rem; */
+}
+.latestNews{
+    display: flex;
+       margin-top: 3rem;
+        flex-direction: row;
+       justify-content: space-evenly;
+    
+    
+    
+       
+    
+}
+#LatestNews{
+    margin-top: 3rem;
+}
+.latestNews .card{
+    height: 50vh;
+    width:calc(33.33%-20px);
+    width:20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.copyright{
+    padding: 1rem;
+}
+.heading{
+    display: flex;
+    flex-direction: row;
 }
