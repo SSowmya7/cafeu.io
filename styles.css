@@ -414,6 +414,45 @@ input {
   flex-direction: column;
   justify-content: space-between;
 }
+.heading {
+  position: relative;
+}
+
+.quickLinks .heading:before
+ {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  width: 50%;
+  height: 1px;
+  background-color: white;
+}
+.insta .heading:before
+ {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  width: 30%;
+  height: 1px;
+  background-color: white;
+}
+.subscribe .heading:before
+ {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  width: 30%;
+  height: 1px;
+  background-color: white;
+}
+.heading:before {
+  left: 0;
+}
+
+.heading:after {
+  right: 0;
+}
+
 #Subs {
   background-color: orange;
   border: none;
