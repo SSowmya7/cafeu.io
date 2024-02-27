@@ -321,6 +321,29 @@ sup {
   margin-bottom: 2rem;
   margin: 0 10%;
 }
+.reviews img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 300px;
+  display: flex;
+  justify-content: center;
+ 
+}
+.reviews{
+  display: flex;
+  height: 40vh;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top:2rem;
+  
+}
+.checked {
+  color: orange;
+}
+.reviewsP{
+  text-align: center;
+}
 .footer .info {
   display: flex;
   flex-direction: row;
@@ -491,6 +514,7 @@ input {
   margin-top: 3rem;
   flex-direction: row;
   justify-content: space-evenly;
+  height: 60vh;
 }
 #LatestNews {
   margin-top: 3rem;
